@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 14px;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+}
+ul{
+    list-style: none;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+header ul li{
+    display: inline;
+    padding: 10px;
+}
+.mid{
+    flex-grow: 1;
+    padding: 15px;
+}
+.bg1{
+    background: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWLz0G?ver=8954&q=0&m=8&h=472&w=1259&b=%23FFFFFFFF&l=f&x=33&y=329&s=2743&d=1028&aim=true);
+    background-size: cover;
+    height: 450px;
+    background-position: center center;
+}
+.contents{
+    width: 400px;
+    padding: 130px 0 0 50px;
+    /* padding: 5% 0; */
+}
+.contents p{
+    padding: 10px 0;
+}
+.contents a{
+    text-decoration: none;
+    border: 2px solid black;
+    padding: 15px;
+    display: inline-block;
+    background-color: #fff;
+    color: black;
+}
+.sbox img{
+    width: 100%;
+}
+.sbox{
+    flex-basis: 23%;
+}
+.sbox p{
+    padding: 10px 0;
+}
+.services{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px 0;
+}
+.bg2{
+    background: url(https://img-prod-cms-rt-microsoft-com.akamaized.net/cms/api/am/imageFileData/RWLShX?ver=cdea&q=0&m=8&h=472&w=1259&b=%23FFFFFFFF&l=f&x=0&y=275&s=2819&d=1057&aim=true);
+    background-size: cover;
+    height: 450px;
+    background-position: center center;
+}
+
+.bg3{
+    background: url(https://www.microsoft.com/en-gb/about/uk-impact-overview/images/hero-1600x600.jpg);
+    background-size: cover;
+    height: 400px;
+    background-position: center center;
+}
+footer{
+    background-color: antiquewhite;
+    padding: 30px 0 0 0;
+}
+.footertop{
+    display: flex;
+    justify-content: space-between;
+}
+footer ul li{
+    font-size: 12px;
+    line-height: 33px;
+}
+.footertop h5{
+    padding-bottom: 25px;
+}
+.footerbottom{
+    background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+@media(max-width:700px)
+{
+    .container{padding: 15px;}
+    .footertop, .services{flex-direction: column;}
+}
